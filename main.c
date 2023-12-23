@@ -22,7 +22,7 @@ void main()
     {
         nextGameAction(game);
         switchPlayer(game);
-        for(int i = 0; i < 1; i++){shoot(game, true);}
+        shoot(game, true);
         switchPlayer(game);
         checkWin(game);
     }while(true);
